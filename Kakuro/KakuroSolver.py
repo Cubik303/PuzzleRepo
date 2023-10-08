@@ -13,7 +13,7 @@ CELL_WALL = 1
 
 #Read in relevant puzzle information
 def generatePuzzle():
-    inputfile = open("KakuroSolver/InputFile.txt","r")
+    inputfile = open("Kakuro/InputFile.txt","r")
 
     for line in inputfile:
         stripline = line.strip().split(",")
